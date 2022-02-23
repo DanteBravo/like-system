@@ -1,0 +1,44 @@
+.favorite-wrapper[data-v-46ed014d] {
+  margin: 20px auto;
+  padding: 0;
+  text-align: center;
+  width: 500px;
+  height: 100px;
+}
+a[data-v-46ed014d]:link, a[data-v-46ed014d]:active, a[data-v-46ed014d]:visited {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #444;
+  transition: color 800ms;
+  font-size: 18px;
+}
+a[data-v-46ed014d]:hover, a[data-v-46ed014d]:hover:visited {
+  color: purple;
+}
+button[data-v-46ed014d] {
+  margin: 10px auto;
+  padding: 8px 10px;
+  background: transparent;
+  width: auto;
+  color: white;
+  text-transform: uppercase;
+  transition: color 800ms;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+}
+button[data-v-46ed014d]:hover {
+  cursor: pointer;
+  color: #058A29;
+}
+.fa[data-v-46ed014d] {
+  color: #d9d9d9;
+  font-size: 20px;
+  transition: color 400ms, transform 400ms;
+  opacity: 1;
+}
+.is-favorited .fa[data-v-46ed014d] {
+  opacity: 1;
+  color: red;
+  transform: scale(1.4);
+}

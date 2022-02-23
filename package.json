@@ -1,0 +1,32 @@
+{
+  "name": "likes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "integrationDev": "cross-env NODE_ENV=development nodemon ./boot/init",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --config=node_modules/@koupper/front-manager/webpack.config.js",
+    "dev": "npm run development",
+    "watch": "npm run development -- --watch"
+  },
+  "devDependencies": {
+    "@koupper/front-manager": "2.8.0",
+    "cross-env": "^7.0.2",
+    "sequelize-cli": "^6.3.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "connect-history-api-fallback": "^1.6.0",
+    "debug": "^4.3.1",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7",
+    "sequelize": "^6.5.0",
+    "vue": "^2.6.12",
+    "vue-router": "^3.4.9",
+    "pg": "^8.5.1"
+  },
+  "author": "Dante Bravo"
+}
